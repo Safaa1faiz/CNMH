@@ -8,4 +8,4 @@
 
 # Le rapport de la branche fonctionelle:
 ## Théme présentation
-([La charte graphique]``(https://docs.google.com/document/d/1ChcaLO0gb-rc4wh6fTCoORnpx5wyOrUke7OMOUXfbbQ/edit))
+([La charte graphique](https://docs.google.com/document/d/1ChcaLO0gb-rc4wh6fTCoORnpx5wyOrUke7OMOUXfbbQ/edit))
