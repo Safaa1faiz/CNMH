@@ -1,4 +1,11 @@
 # Lab_Github
+
+# work to be done. 
+1. create multiple branches
+2. create a conflict
+3. merge the branches into the main
+4. solve the conflict
+   
 ### Steps to make conflict
 After collaborate with someone else to work on some repo
 ### First you need clone to your repo
