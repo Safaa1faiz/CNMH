@@ -1,6 +1,6 @@
 # Validation de la branche fonctionelle:
 ## Les ramarques notée:
-1. User storie
+1. User stories
 2. La creation de la charte graphique de presentation
 3. Choisir un théme de présenatation
 4. Appliquer la charte graphique dans le théme de presentation
