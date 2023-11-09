@@ -12,7 +12,9 @@
 [Présentation](https://docs.google.com/presentation/d/1nAV279i0U6LYjkUTPrI2Zd0d1p5YslMQl0IAq0BNwDY/edit?usp=sharing)
 
 ## Théme présentation
+
 [La charte graphique](https://docs.google.com/document/d/1ChcaLO0gb-rc4wh6fTCoORnpx5wyOrUke7OMOUXfbbQ/edit#heading=h.wy7f52l7qhv3)
+
 [Théme de présentation](https://docs.google.com/presentation/d/1iipkAvkR68LQkmU8Gks_kWtWpdhh0VEgranMk800MWM/edit#slide=id.p)
 
 
