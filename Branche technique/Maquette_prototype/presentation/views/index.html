@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="../assets/plugins/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <!-- Theme style -->
   <link rel="stylesheet" href="../assets/css/adminlte.min.css">
     <!-- Ionicons -->
@@ -27,6 +28,8 @@
     <link rel="stylesheet" href="../assets/plugins/daterangepicker/daterangepicker.css">
     <!-- summernote -->
     <link rel="stylesheet" href="../assets/plugins/summernote/summernote-bs4.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha384-GLhlTQ8iUNiNlZDkQ8J+5F8BSvcUDeKuFm12aPnbndFfP0D+2Q/OJmR32PQnkt-" crossorigin="anonymous">
+
 
 
     
@@ -43,7 +46,7 @@
       <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
     </li>
     <li class="nav-item d-none d-sm-inline-block">
-      <a href="../../index3.html" class="nav-link">Home</a>
+      <a href="#" class="nav-link">Home</a>
     </li>
     <li class="nav-item d-none d-sm-inline-block">
       <a href="#" class="nav-link">Contact</a>
@@ -69,7 +72,7 @@
     <aside class="main-sidebar sidebar-dark-primary elevation-4">
         <!-- Brand Logo -->
         <a href="#" class="brand-link">
-            <img src="../assets/css/img/WWW.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+            <img src="../assets/css/img/WWW.png" alt="" class="brand-image img-circle elevation-3" style="opacity: .8">
             <span class="brand-text font-weight-light">Solicoders</span>
         </a>
 
@@ -80,13 +83,13 @@
                 <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
                     <!-- Add your sidebar menu items here -->
                     <li class="nav-item">
-                      <a href="index.html" class="nav-link ">
+                      <a href="#" class="nav-link active">
                         <i class="nav-icon fas fa-chalkboard-teacher"></i> <!-- Change the class to "fas fa-chalkboard-teacher" -->
                           <p>Gestion des Projets</p>
                       </a>
                   </li>
                   <li class="nav-item">
-                      <a href="#" class="nav-link active">
+                      <a href="GestionMembres.html" class="nav-link">
                           <i class="nav-icon fas fa-users"></i> <!-- Change the class to "fas fa-users" -->
                           <p>Gestions des Membres</p>
                       </a>
@@ -108,7 +111,7 @@
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-6">
-                    <h1 class="m-0">Gestion des Membres</h1>
+                    <h1 class="m-0">Gestion des Projets</h1>
                 </div><!-- /.col -->
             </div><!-- /.row -->
      
@@ -118,7 +121,7 @@
 
                 <div class="col-sm-12 d-flex justify-content-between p-3">
                     <div class="d-flex justify-content-between">
-                        <a href="Members-add&edit .html" class="btn btn-primary"><i class="fa fa-plus"></i> </a>
+                        <a href="Projets-add&edit.html" class="btn btn-primary"><i class="fa fa-plus"></i> </a>
                     </div>
       
                     <!-- SEARCH FORM -->
@@ -134,62 +137,87 @@
                             </div>
                         </div>
                     </form>
+             
                 </div>
             </div>
               <!-- /.card-header -->
               <div class="card-body p-0">
                 <div class="table-responsive">
-                  <table class="table table-bordered table-striped">
+                  <table class="table table-bordered table-striped ">
                     <thead>
                     <tr>
-                    <th>Id</th>
-                    <th>Prenom</th>
-                    <th>Nom</th>
-                    <th>Email</th>
-                    <th>Role</th>
-                    <th>Mot de passe</th>
+                    <th data-sort="Id">Identifiant
+                      <!-- <i class="fas fa-sort"></i> -->
+                    </th>
+                    <th data-sort="Name">Nom
+                      <!-- <i class="fas fa-sort"></i> -->
+                    </th>
+                    <th data-sort="Description">Description
+                      <!-- <i class="fas fa-sort"></i> -->
+                    </th>
+                    <th data-sort="Start Date">Date de début
+                      <i class="fas fa-sort"></i>
+                    </th>
+                    <th data-sort="End Date">Date de fin
+                      <i class="fas fa-sort"></i>
+                    </th>
+                    <th>Tâches</th>
                     <th>Action</th>
+                    
                     </tr>
                     </thead>
                     <tbody>
                     <tr>
                     <td>1</td>
-                    <td>Safaa</td>
-                    <td>Faiz</td>
-                    <td>Safaa.faiz.solicode@gmail.com</td>
-                    <td>student</td>
-                    <td>**************</td>
+                    <td>Développer la première fonctionnalité du projet</td>
+                    <td>description</td>
+                    <td>2023-11-10</td>
+                    <td>2023-11-15</td>
+                    <td><div class="btn-group">
+                      <a href="GestionTaches.html" class="btn btn-primary mx-2">
+                        <i class="fas fa-eye"></i>
+                      </a>
+                    </div></td>
                     <td class="project-actions text-right">
-                      <a class="btn btn-info btn-sm" href="Members-add&edit .html"><i class="fas fa-pencil-alt"> </i> Edit </a>
+                      <a class="btn btn-info btn-sm" href="Projets-add&edit.html"><i class="fas fa-pencil-alt"> </i> Edit </a>
                       <a class="btn btn-danger btn-sm" href="#"> <i class="fas fa-trash"> </i> Delete </a>
                   </td>
                     </tr>
                     <tr>
                     <td>2</td>
-                    <td>Salma</td>
-                    <td>Faiz</td>
-                    <td>Salma.faiz01@gmail.com</td>
-                    <td>student</td>
-                    <td>**************</td>
+                    <td>Développer la deuxième fonctionnalité du projet</td>
+                    <td>description</td>
+                    <td>2023-11-16</td>
+                    <td>2023-11-22</td>
+                    <td><div class="btn-group">
+                      <a href="GestionTaches.html" class="btn btn-primary mx-2">
+                        <i class="fas fa-eye"></i>
+                      </a>
+                    </div></td>
                     <td class="project-actions text-right">
-                      <a class="btn btn-info btn-sm" href="Members-add&edit .html"><i class="fas fa-pencil-alt"> </i> Edit </a>
+                      <a class="btn btn-info btn-sm" href="Projets-add&edit.html"><i class="fas fa-pencil-alt"> </i> Edit </a>
                       <a class="btn btn-danger btn-sm" href="#"> <i class="fas fa-trash"> </i> Delete </a>
                   </td>
                     </tr>
                     <tr>
                     <td>3</td>
-                    <td>Ahmed</td>
-                    <td>Faiz</td>
-                    <td>Faiz.Ahmed.solicode@gmail.com</td>
-                    <td>student</td>
-                    <td>**************</td>
+                    <td>Développer la troisième fonctionnalité du projet</td>
+                    <td>description</td>
+                    <td>2023-11-23</td>
+                    <td>2023-11-29</td>
+                    <td><div class="btn-group">
+                      <a href="GestionTaches.html" class="btn btn-primary mx-2">
+                        <i class="fas fa-eye"></i>
+                      </a>
+                    </div></td>
+                    <!-- <td>Utilisateur 5, Utilisateur 6</td> -->
                     <td class="project-actions text-right">
-                      <a class="btn btn-info btn-sm" href="Members-add&edit .html"><i class="fas fa-pencil-alt"> </i> Edit </a>
+                      <a class="btn btn-info btn-sm" href="Projets-add&edit .html"><i class="fas fa-pencil-alt"> </i> Edit </a>
                       <a class="btn btn-danger btn-sm" href="#"> <i class="fas fa-trash"> </i> Delete </a>
                   </td>
                     </tr>
                     </tbody>
-                    </table>       
+                    </table>            
               </div>
               <div class="card-header row">
                 <div class="float-right col-md-6">
@@ -201,7 +229,17 @@
                         <li class="page-item"><a class="page-link" href="#">»</a></li>
                     </ul>
                 </div>
-       
+                <div class="float-left col-md-6 d-flex justify-content-end" style="align-items: center; ">
+                    <!-- <button type="button" class="btn btn-default swalDefaultQuestion">
+                        <i class="fas fa-download"></i> export_pdf
+                    </button> -->
+                    <button type="button" class="btn btn-default mr-2 swalDefaultQuestion">
+                        <i class="fas fa-download"></i> export
+                    </button>
+                    <button type="button" class="btn btn-default swalDefaultQuestion">
+                        <i class="fas fa-file-import"></i> import
+                    </button>
+                </div>      
               </div>
             <!-- /.card -->
           </div>   
@@ -211,9 +249,11 @@
   </div><!-- /.container-fluid -->
   </section>
   </div>
+    <!-- Content Wrapper -->
+
     <!-- Footer (Optional) -->
     <footer class="main-footer">
- Welcome
+  Welcome
     </footer>
 
 <!-- ./wrapper -->

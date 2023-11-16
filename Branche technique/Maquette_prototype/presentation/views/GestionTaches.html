@@ -80,13 +80,13 @@
                 <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
                     <!-- Add your sidebar menu items here -->
                     <li class="nav-item">
-                      <a href="index.html" class="nav-link ">
+                      <a href="index.html" class="nav-link active ">
                         <i class="nav-icon fas fa-chalkboard-teacher"></i> <!-- Change the class to "fas fa-chalkboard-teacher" -->
                           <p>Gestion des Projets</p>
                       </a>
                   </li>
                   <li class="nav-item">
-                      <a href="#" class="nav-link active">
+                      <a href="GestionMembres.html" class="nav-link">
                           <i class="nav-icon fas fa-users"></i> <!-- Change the class to "fas fa-users" -->
                           <p>Gestions des Membres</p>
                       </a>
@@ -100,7 +100,7 @@
   <aside class="control-sidebar control-sidebar-dark">
     <!-- Control sidebar content goes here -->
   </aside>
-  <div class="wrapper">
+<div class="wrapper">
     <!-- Content Wrapper -->
     <div class="content-wrapper">
       <div class="content-header">
@@ -108,7 +108,7 @@
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-6">
-                    <h1 class="m-0">Gestion des Membres</h1>
+                    <h1 class="m-0">Gestion des Taches</h1>
                 </div><!-- /.col -->
             </div><!-- /.row -->
      
@@ -118,7 +118,7 @@
 
                 <div class="col-sm-12 d-flex justify-content-between p-3">
                     <div class="d-flex justify-content-between">
-                        <a href="Members-add&edit .html" class="btn btn-primary"><i class="fa fa-plus"></i> </a>
+                        <a href="Taches-add&edit.html" class="btn btn-primary"><i class="fa fa-plus"></i> </a>
                     </div>
       
                     <!-- SEARCH FORM -->
@@ -139,57 +139,51 @@
               <!-- /.card-header -->
               <div class="card-body p-0">
                 <div class="table-responsive">
-                  <table class="table table-bordered table-striped">
-                    <thead>
-                    <tr>
-                    <th>Id</th>
-                    <th>Prenom</th>
+                <table class="table table-striped">
+                  <thead>
+                  <tr>
+                    <th>Identifiant</th>
                     <th>Nom</th>
-                    <th>Email</th>
-                    <th>Role</th>
-                    <th>Mot de passe</th>
-                    <th>Action</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr>
-                    <td>1</td>
-                    <td>Safaa</td>
-                    <td>Faiz</td>
-                    <td>Safaa.faiz.solicode@gmail.com</td>
-                    <td>student</td>
-                    <td>**************</td>
-                    <td class="project-actions text-right">
-                      <a class="btn btn-info btn-sm" href="Members-add&edit .html"><i class="fas fa-pencil-alt"> </i> Edit </a>
-                      <a class="btn btn-danger btn-sm" href="#"> <i class="fas fa-trash"> </i> Delete </a>
-                  </td>
-                    </tr>
-                    <tr>
-                    <td>2</td>
-                    <td>Salma</td>
-                    <td>Faiz</td>
-                    <td>Salma.faiz01@gmail.com</td>
-                    <td>student</td>
-                    <td>**************</td>
-                    <td class="project-actions text-right">
-                      <a class="btn btn-info btn-sm" href="Members-add&edit .html"><i class="fas fa-pencil-alt"> </i> Edit </a>
-                      <a class="btn btn-danger btn-sm" href="#"> <i class="fas fa-trash"> </i> Delete </a>
-                  </td>
-                    </tr>
-                    <tr>
-                    <td>3</td>
-                    <td>Ahmed</td>
-                    <td>Faiz</td>
-                    <td>Faiz.Ahmed.solicode@gmail.com</td>
-                    <td>student</td>
-                    <td>**************</td>
-                    <td class="project-actions text-right">
-                      <a class="btn btn-info btn-sm" href="Members-add&edit .html"><i class="fas fa-pencil-alt"> </i> Edit </a>
-                      <a class="btn btn-danger btn-sm" href="#"> <i class="fas fa-trash"> </i> Delete </a>
-                  </td>
-                    </tr>
-                    </tbody>
-                    </table>       
+                    <th>Description</th>
+                    <th>Action</th>                    
+                  </tr>
+                  </thead>
+                  <tbody>
+                  <tr>
+                  <td>1</td>
+        <td>Développer la première fonctionnalité du projet</td>
+                  <td>description</td>
+
+                  <!-- <td>Utilisateur 1, Utilisateur 2</td> -->
+                  <td class="project-actions text-right">
+                    <a class="btn btn-info btn-sm" href="Taches-add&edit.html"><i class="fas fa-pencil-alt"> </i> Edit </a>
+                    <a class="btn btn-danger btn-sm" href="#"> <i class="fas fa-trash"> </i> Delete </a>
+                </td>
+                  </tr>
+                  <tr>
+                  <td>2</td>
+            <td>Développer la deuxième fonctionnalité du projet</td>
+                  <td>description</td>
+
+                  <!-- <td>Utilisateur 3, Utilisateur 4</td> -->
+                  <td class="project-actions text-right">
+                    <a class="btn btn-info btn-sm" href="Taches-add&edit.html"><i class="fas fa-pencil-alt"> </i> Edit </a>
+                    <a class="btn btn-danger btn-sm" href="#"> <i class="fas fa-trash"> </i> Delete </a>
+                </td>
+                  </tr>
+                  <tr>
+                  <td>3</td>
+               <td>Développer la troisième fonctionnalité du projet</td>
+                  <td>description</td>
+             <!-- <td>Utilisateur 5, Utilisateur 6</td> -->
+             <td class="project-actions text-right">
+              <a class="btn btn-info btn-sm" href="Taches-add&edit.html"><i class="fas fa-pencil-alt"> </i> Edit </a>
+              <a class="btn btn-danger btn-sm" href="#"> <i class="fas fa-trash"> </i> Delete </a>
+          </td>
+                  </tr>
+                  </tbody>
+                  </table>
+                  
               </div>
               <div class="card-header row">
                 <div class="float-right col-md-6">
@@ -201,7 +195,17 @@
                         <li class="page-item"><a class="page-link" href="#">»</a></li>
                     </ul>
                 </div>
-       
+                <div class="float-left col-md-6 d-flex justify-content-end" style="align-items: center; ">
+                    <!-- <button type="button" class="btn btn-default swalDefaultQuestion">
+                        <i class="fas fa-download"></i> export_pdf
+                    </button> -->
+                    <button type="button" class="btn btn-default mr-2 swalDefaultQuestion">
+                        <i class="fas fa-download"></i> export
+                    </button>
+                    <button type="button" class="btn btn-default swalDefaultQuestion">
+                        <i class="fas fa-file-import"></i> import
+                    </button>
+                </div>      
               </div>
             <!-- /.card -->
           </div>   
@@ -213,7 +217,7 @@
   </div>
     <!-- Footer (Optional) -->
     <footer class="main-footer">
- Welcome
+  Welcome 
     </footer>
 
 <!-- ./wrapper -->
