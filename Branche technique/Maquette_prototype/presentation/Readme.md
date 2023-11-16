@@ -3,7 +3,7 @@ Bienvenue dans le Gestionnaire de Projets Laravel, un projet robuste construit s
 
 ## Travail a faire:
 
-1. Gestion de Projets : 
+**1. Gestion de Projets :** 
 - Implémentez les fonctionnalités CRUD pour permettre l'ajout, la modification et la suppression de projets.
 - Créez une vue paginée pour afficher la liste complète des projets.
 
