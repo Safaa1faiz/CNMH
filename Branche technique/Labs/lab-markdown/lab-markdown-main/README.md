@@ -31,7 +31,7 @@ Que vous soyez novice ou développeur chevronné, dompter le Markdown vous perme
 9. Mise en forme : Utilisez la mise en forme (comme le gras, l'italique, les listes) pour une meilleure lisibilité.
 10. Grammaire et orthographe : Relisez votre contenu pour vous assurer qu'il n'y a pas d'erreurs.
 
- # Mardown Styling Commands:
+ # Markdown Styling Commands:
  1. Headers(#, ##, ###):
     ```
     #Safaa
