@@ -108,7 +108,7 @@
             @yield('content')
             <!-- Footer (Optional) -->
             <footer class="main-footer">
-                hello everybodyyyyy
+                Welcome to my dashboard
             </footer>
 
             <!-- ./wrapper -->
