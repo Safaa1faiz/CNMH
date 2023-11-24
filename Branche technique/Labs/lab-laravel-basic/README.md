@@ -1,58 +1,71 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
-
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
 
 ## About lab-laravel-basic
 
-The "lab-laravel-basic" project is a web application developed using Laravel, focused on task management. It includes CRUD operations for tasks, pagination, and search functionality in the table.
+Bienvenue dans le guide d'autoformation Laravel ! Ce document a été créé pour vous aider à apprendre Laravel, un framework PHP puissant et élégant pour le développement web.
 
-## Project Features
+## Objectif
 
-- **Task Management:** Perform Create, Read, Update, and Delete (CRUD) operations for tasks.
-- **Pagination:** Implement pagination for a better user experience when dealing with a large number of tasks.
-- **Search in the Table:** Empower users to dynamically search and filter tasks in the table using AJAX for a seamless and responsive user experience.
+L'objectif de cette autoformation est de vous familiariser avec les concepts de base de Laravel, de vous guider à travers la création d'une application simple, et de vous fournir des ressources pour approfondir vos connaissances.
 
-## Getting Started
+## Prérequis
 
-To get started with the project, follow these steps:
+Avant de commencer, assurez-vous d'avoir installé les éléments suivants sur votre machine :
 
-1. Clone the repository: `git clone https://github.com/husseinbouik/lab-laravel-basic.git`
-2. Install dependencies: `composer install`
-3. Set up your environment file: `cp .env.example .env`
-4. Generate the application key: `php artisan key:generate`
-5. Configure your database settings in the `.env` file.
-6. Run database migrations: `php artisan migrate`
-7. Start the development server: `php artisan serve`
+- [PHP](https://www.php.net/manual/en/install.php)
+- [Composer](https://getcomposer.org/doc/00-intro.md#installation)
+- [Node.js et npm](https://nodejs.org/)
+- [Laravel](https://laravel.com/docs/8.x/installation)
 
-Visit the application in your browser at `http://localhost:8000`.
+## Création d'un Nouveau Projet Laravel
 
-## Usage
+- Ouvrez votre terminal et exécutez la commande suivante pour créer un nouveau projet Laravel :
+   ```bash
+   composer create-project --prefer-dist laravel/laravel nom-du-projet
 
-- Access the task management functionality through the web interface.
-- Use pagination to navigate through the list of tasks efficiently.
-- Utilize the search functionality to find specific tasks based on criteria.
+1. Naviguez vers le répertoire du projet :
 
-## Learn More
+ ```
+ cd nom-du-projet
+```
+2. Copiez le fichier .env.example pour créer un fichier .env :
+```
+cp .env.example .env
+```
+3. Générez la clé d'application Laravel :
+```
+php artisan key:generate
+```
+### Lancement de l'Application
 
-Explore the [Laravel documentation](https://laravel.com/docs) for in-depth information on Laravel and its features.
+1. Utilisez la commande artisan pour démarrer le serveur de développement :
+```
+php artisan serve
+```
+2. Ouvrez votre navigateur et accédez à http://localhost:8000 pour voir votre application Laravel fraîchement créée.
 
-## Contributing
+## Exploration
+- Structure du Projet : Laravel suit une structure MVC. Explorez les répertoires app, routes, et resources pour comprendre la répartition des fichiers.
 
-Thank you for considering contributing to the "lab-laravel-basic" project! Please review the [contribution guide](https://laravel.com/docs/contributions) for more details.
+- Routes : Définissez vos routes dans le fichier routes/web.php pour gérer les requêtes HTTP.
 
-## Code of Conduct
+- Contrôleurs : Utilisez des contrôleurs pour organiser la logique de votre application. Créez-les avec la commande php artisan make:controller NomDuController.
 
-Please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct) to ensure a welcoming community for all contributors.
+- Base de Données : Configurez votre base de données dans le fichier .env et utilisez les migrations pour créer des tables.
 
-## Security Vulnerabilities
+## Ressources des chapitres essentiels
 
-If you discover a security vulnerability within the "lab-laravel-basic" project, please contact the project maintainers via [email@example.com](mailto:email@example.com). All security vulnerabilities will be promptly addressed.
+[Grafikart](https://grafikart.fr/tutoriels/blade-template-laravel-2117#autoplay)
 
-## License
+[Documentation officielle de Laravel](https://laravel.com/docs/10.x)
 
-The "lab-laravel-basic" project is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## Ressources Supplémentaires
+
+[Laracasts](https://laracasts.com/)
+
+[Forums Laravel](https://laracasts.com/discuss)
+
+## Contribuer
+
+Si vous trouvez des erreurs ou souhaitez contribuer à l'amélioration de ce guide, n'hésitez pas à ouvrir une issue ou à créer une pull request sur GitHub.
+
+**Bon codage avec Laravel !**
