@@ -4,7 +4,7 @@
 
 Comment réaliser une presentation professionnel?
 
-## Critères de Validation d'une Présentation:
+## Critères de Validation d'une présentation:
 - **Contenu:**
 1. Pertinence: Assurez-vous que le contenu de la présentation est pertinent par rapport à l'objectif et aux attentes de l'audience.
 2. Clarté du Message: Le message principal doit être clairement articulé, évitant tout jargon excessif et assurant une compréhension facile.
