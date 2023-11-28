@@ -8,6 +8,5 @@ Comment réaliser une presentation professionnel?
 - Réalisation d'une présenation.
 - Création d'un fichier README.       
 
-
 ## Référence
 
