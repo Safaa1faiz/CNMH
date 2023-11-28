@@ -1,4 +1,6 @@
-# Travail a faire
+# Lab Markdown
+
+## Travail a faire
 
 - Comment créez votre CV au format Markdown dans un fichier README sur GitHub, en vous familiarisant avec la création et la mise en forme spécifiques de ce langage?
   
