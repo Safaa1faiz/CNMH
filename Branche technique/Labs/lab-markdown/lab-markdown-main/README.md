@@ -10,7 +10,7 @@
 2. Liens fonctionnels : Vérifiez que tous les liens inclus dans le fichier sont valides et dirigent vers les pages ou ressources correctes.
 
 3. Images intégrées correctement : Si votre fichier contient des images, assurez-vous qu'elles sont correctement intégrées et que les chemins d'accès sont corrects.
-4. Utiliser une liste .
+4. Utiliser une liste.
 
 
 [Resource-Markdown-a-voir](https://docs.github.com/fr/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
