@@ -10,3 +10,8 @@ Comment réaliser une presentation professionnel?
 
 ## Référence
 
+ [9 conseils pour faire de belles présentations PowerPoint](https://www.shutterstock.com/fr/blog/belles-presentations-powerpoint)
+
+## Présenation
+
+[Lien de présentation](https://docs.google.com/presentation/d/1UwBUuHepLXsdsht8DGq48CJ-zyjFzjysxtlMyA99uyA/edit?usp=sharing)
