@@ -2,7 +2,7 @@
 
 ## Travail à faire 
 
-Rediger une presentation professionnel.
+Comment réaliser une presentation professionnel?
 
 ## Critères de Validation d'une Présentation:
 - **Contenu:**
