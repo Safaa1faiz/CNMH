@@ -4,7 +4,7 @@
 
 - Comment créez votre CV au format Markdown dans un fichier README sur GitHub, en vous familiarisant avec la création et la mise en forme spécifiques de ce langage?
   
-# Critére de validation:
+## Critére de validation:
 1. Syntaxe correcte : Assurez-vous que la syntaxe Markdown est correcte pour éviter tout problème d'affichage. Vérifiez que les balises, les listes, les liens, les images, etc., sont correctement formatés.
 
 2. Lisibilité : Le fichier est-il facile à lire et à comprendre? Assurez-vous que la structure du document est logique, avec des en-têtes appropriés, des listes bien indentées et une utilisation cohérente de la mise en forme.
